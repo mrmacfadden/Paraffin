@@ -1,0 +1,72 @@
+/*
+=================================================
+GLOBAL
+=================================================
+*/
+.btn {
+  border-radius: 0;
+}
+/*
+=================================================
+TYPOGRAPHY
+=================================================
+*/
+body {
+  font-family: "Roboto", sans-serif;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: "Abril Fatface", cursive;
+  font-weight: 300;
+}
+
+/*
+=================================================
+NAVBAR
+=================================================
+*/
+.navbar-brand {
+  font-family: "Abril Fatface", cursive;
+  font-size: 28px;
+}
+
+.navbar-brand span {
+  font-family: "Roboto", sans-serif;
+  font-size: 16px;
+  font-weight: 300;
+  color: #777;
+}
+
+.navbar li {
+  margin-right: 30px;
+  font-family: "Roboto", sans-serif;
+  font-weight: 300;
+}
+/*
+=================================================
+HERO
+=================================================
+*/
+.btn-outline-secondary {
+  color: #6c757d;
+  border-color: #6c757d;
+  text-transform: uppercase;
+}
+.btn-outline-secondary:hover {
+  color: #fff;
+  background-color: #6c757d;
+  border-color: #6c757d;
+}
+
+/*
+=================================================
+BUILDER
+=================================================
+*/
+.cover-art {
+  max-width: 400px;
+}
