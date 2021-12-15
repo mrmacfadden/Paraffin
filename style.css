@@ -13,15 +13,19 @@ TYPOGRAPHY
 */
 body {
   font-family: "Roboto", sans-serif;
+  font-weight:100;
 }
 h1,
 h2,
-h3,
-h4,
-h5,
-h6 {
+h3{
   font-family: "Abril Fatface", cursive;
   font-weight: 300;
+}
+h4{
+  font-weight:700;
+}
+h5{
+  font-weight:500;
 }
 
 /*
@@ -61,6 +65,23 @@ HERO
   background-color: #6c757d;
   border-color: #6c757d;
 }
+.wax-logo{
+  filter:saturate(0%) opacity(50%);
+  max-width:100px;
+}
+
+/*
+=================================================
+HOW TO
+=================================================
+*/
+.how-to i{
+  font-size:48px;
+}
+.how-to a{
+  color:#FFF;
+  text-decoration:none;
+}
 
 /*
 =================================================
@@ -68,5 +89,45 @@ BUILDER
 =================================================
 */
 .cover-art {
-  max-width: 400px;
+  max-height:400px;
+}
+label{
+  font-weight:500;
+}
+.message{
+  height:200px;
+}
+::placeholder{
+  font-weight: 100;
+}
+
+/*
+=================================================
+FOOTER
+=================================================
+*/
+.footer {
+  background-color: #000000;
+}
+.footer p {
+  color: #ffffff;
+}
+.footer h4 {
+  font-size: 16px;
+  font-weight: 700;
+  color: #f8f9fa;
+}
+.footer a {
+  text-decoration: none;
+  color: #f8f9fa;
+  font-weight: 300;
+}
+.mailchimp {
+  position: relative;
+  top: -3rem;
+  padding-bottom: 16px;
+}
+.mailchimp a {
+  clear: both;
+  display: block;
 }
